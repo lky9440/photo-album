@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const newLi = document.createElement("li");
     const newImg = document.createElement("img");
 
-    const transformation = "w_200,q_30,f_auto";
+    const transformation = "f_auto";
     newImg.src = url.replace("/upload/", `/upload/${transformation}/`);
 
     newImg.setAttribute("loading", "lazy");
